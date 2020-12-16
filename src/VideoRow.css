@@ -1,0 +1,45 @@
+.videoRow {
+  display: flex;
+  margin-bottom: 30px;
+  max-width: 700px;
+  margin-left: 10%;
+}
+
+.videoRow > img {
+  object-fit: contain;
+  width: 286px;
+  height: 170px;
+  cursor: pointer;
+}
+
+.videoRow__text {
+  margin-left: 14px;
+}
+
+.videoRow__text > h3 {
+  font-weight: normal;
+  font-size: 18px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.videoRow__subs {
+  background-color: lightgray;
+  padding: 2px;
+}
+
+.videoRow__description {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #606060;
+}
+
+.videoRow__subsNumber {
+  font-weight: bolder;
+  color: rgb(84, 157, 211);
+}
+
+.videoRow__headline {
+  font-size: 12px;
+  color: #606060;
+}
